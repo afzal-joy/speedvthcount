@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from tracking import *
 
-VIDEO_DIR = './VideoDataSets/ch01_20181127091944.mp4'
+VIDEO_DIR = './VideoDataSets/1.mp4'
 
 def letterbox_image(image, size):
     '''resize image with unchanged aspect ratio using padding'''
