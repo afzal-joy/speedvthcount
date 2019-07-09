@@ -9,7 +9,7 @@ vehicles = {'car', 'bus', 'truck', 'person', 'motorbike', 'train', 'bicycle'}
 
 class YOLO(object):
     _defaults = {
-        "model_path": 'model_data/yolo.h5',
+        "model_path": yolomodel,
         "anchors_path": 'model_data/yolo_anchors.txt',
         "classes_path": 'model_data/coco_classes.txt',
         "score_threshold": 0.3,
